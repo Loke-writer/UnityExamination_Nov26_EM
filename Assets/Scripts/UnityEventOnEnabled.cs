@@ -1,16 +1,31 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class UnityEventOnEnabled : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public UnityEvent customEvent;
+
+    private bool toggle = true;
+
+    private void OnEnable()
     {
+        if (toggle)
+            customEvent.Invoke();
         
+        Debug.Log("Unity Event invoked in " + gameObject.name);
+        toggle = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        toggle = true;
+    }
+
+    public void DebugMessage()
+    {
+        Debug.Log("You've activated the DebugMessage in " + gameObject);
     }
 }
