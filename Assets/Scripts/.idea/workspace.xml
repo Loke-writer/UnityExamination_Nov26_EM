@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3f3c949-a4b0-4c6e-91c1-365244f2137e" name="Changes" comment="" />
+    <list default="true" id="b3f3c949-a4b0-4c6e-91c1-365244f2137e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +13,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EventTrigger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InstantiateOnEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UnityEventOnEnabled.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,6 +50,7 @@
       <workItem from="1795180982438" duration="622000" />
       <workItem from="1795183861238" duration="269000" />
       <workItem from="1795184150172" duration="738000" />
+      <workItem from="1795186162146" duration="617000" />
     </task>
     <servers />
   </component>
